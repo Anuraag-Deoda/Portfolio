@@ -1,4 +1,4 @@
-# whosbl33h
+# Anuraag
 My personal portfolio implemented with React. The eslint, vite and tailwind technologies were also used.
 
 # Files
@@ -8,7 +8,6 @@ My personal portfolio implemented with React. The eslint, vite and tailwind tech
 - pages: the different areas of the portfolio.
 - constants: values that cannot be altered by the program during normal execution.
 
-Link to try it out: https://whosbl33h.netlify.app/
 
 # How To Use
 
