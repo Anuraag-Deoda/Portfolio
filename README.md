@@ -1,4 +1,4 @@
-# whosbl33h
+
 My personal portfolio implemented with React. The eslint, vite and tailwind technologies were also used.
 
 # Files
@@ -8,7 +8,6 @@ My personal portfolio implemented with React. The eslint, vite and tailwind tech
 - pages: the different areas of the portfolio.
 - constants: values that cannot be altered by the program during normal execution.
 
-Link to try it out: https://whosbl33h.netlify.app/
 
 # How To Use
 
@@ -16,8 +15,6 @@ To clone and run this application, you'll need [Git]
 (https://git-scm.com), [Node.js] (https://nodejs.org/en) and [Vite] (https://vitejs.dev/) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/bl33h/whosbl33h
 
 # Install dependencies
 $ npm i
