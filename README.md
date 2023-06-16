@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+# Anuraag
+>>>>>>> 45cf6a47edd04798ff14bbe2ec5424214348ac07
 My personal portfolio implemented with React. The eslint, vite and tailwind technologies were also used.
 
 # Files
