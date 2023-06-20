@@ -113,13 +113,13 @@ const projects = [
     name: 'Netflix clone',
     description: 'Built a fuhll stack netflix clone application using Nextjs, Typescript and Tailwindcss. Also used Mongodb to store the user credentials and etc.',
     image: memoryGame,
-    source_code_link: 'https://github.com/anu/pawsitive',
+    source_code_link: 'https://github.com/Anuraag-Deoda/Netflix',
   },
   {
     name: 'StackOverflow with Integrated Chatbot',
     description: 'A completely functional full stack clone of StackOverflow with a chatbot that uses the GPT 3.5 turbo model to fetch the answers.',
     image: calculator,
-    source_code_link: 'https://github.com/Anuraag-Deoda/Adobe-Creative-Cloud_redesign',
+    source_code_link: 'https://github.com/Anuraag-Deoda/StackOverflow',
   },
 ];
 
