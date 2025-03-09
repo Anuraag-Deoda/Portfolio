@@ -21,6 +21,11 @@ import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import flaskIcon from './tech/flask.webp';
+import djangoIcon from './tech/django.webp';
+import dockerIcon from './tech/docker.png';
+import sqlIcon from './tech/sql.webp';
+import aiIcon from './tech/ai.webp';
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
@@ -54,4 +59,9 @@ export {
   memoryGame,
   avatarr,
   anuIcon,
+  flaskIcon,
+  djangoIcon,
+  dockerIcon,
+  sqlIcon,
+  aiIcon,
 };
