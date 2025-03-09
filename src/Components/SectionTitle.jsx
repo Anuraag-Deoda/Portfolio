@@ -1,5 +1,4 @@
 
-
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const SectionTitle = (props) => {
