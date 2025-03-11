@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-400: #9747FF;
+  --primary-500: #4A2B82;
+  --primary-600: #B07CFF;
+}
+
 @font-face {
   font-family: "SuperMario";
   src: url(/Fonts/Mario/SuperMario256.ttf);
@@ -17,7 +23,7 @@
 
 body {
   background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #203a2b;
+  background-color: var(--primary-500);
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -32,7 +38,7 @@ body {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #1B4329;
+  background: var(--primary-500);
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -42,13 +48,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #1B4329);
-  filter: drop-shadow(0 0 5rem #1B4329);
+  -webkit-filter: drop-shadow(0 0 5rem var(--primary-500));
+  filter: drop-shadow(0 0 5rem var(--primary-500));
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #1B4329);
-  filter: drop-shadow(0 0 5rem #1B4329);
+  -webkit-filter: drop-shadow(0 0 5rem var(--primary-500));
+  filter: drop-shadow(0 0 5rem var(--primary-500));
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -83,7 +89,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #1B4329;
+  background: var(--primary-500);
   border-collapse: separate;
   background-size: cover;
   background-position: center;
@@ -116,7 +122,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #29c26f;
+  color: var(--primary-400);
 }
 
 @keyframes rubberband {
@@ -147,8 +153,8 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #29c26f);
-    filter: drop-shadow(0 0 1.5rem #29c26f);
+    -webkit-filter: drop-shadow(0 0 1.5rem var(--primary-400));
+    filter: drop-shadow(0 0 1.5rem var(--primary-400));
   }
 }
 
@@ -171,7 +177,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #29c26f transparent;
+  border-color: var(--primary-400) transparent;
 }
 
 @keyframes rotation {

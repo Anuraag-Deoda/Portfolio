@@ -87,7 +87,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 40,
         color: {
-          value: '#29c26f',
+          value: '#E1A2C1',
         },
         opacity: 8,
         mix: false,
@@ -108,7 +108,7 @@ export const heroOptions = {
       mode: 'bounce',
     },
     color: {
-      value: '#29c26f',
+      value: '#E1A2C1',
     },
     move: {
       angle: {

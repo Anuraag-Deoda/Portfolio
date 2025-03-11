@@ -1,4 +1,3 @@
-
 // Logo
 import anuIcon from './logo/anuIcon.png';
 
@@ -31,6 +30,11 @@ import aiIcon from './tech/ai.webp';
 import pawsitivePrototype from './projects/pawsitive.jpeg';
 import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
+import financeManager from './projects/financemanager.png';
+import urlShortener from './projects/financemanager.png';
+import sudokuSolver from './projects/financemanager.png';
+import chessPredictor from './projects/financemanager.png';
+import characterChat from './projects/financemanager.png';
 
 // Avatar
 import avatarr from './avatar/avatarr.png';
@@ -57,6 +61,11 @@ export {
   pawsitivePrototype,
   calculator,
   memoryGame,
+  financeManager,
+  urlShortener,
+  sudokuSolver,
+  chessPredictor,
+  characterChat,
   avatarr,
   anuIcon,
   flaskIcon,

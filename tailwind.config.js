@@ -7,16 +7,16 @@ export default {
   theme: {
     extend: {
       dropShadow: {
-        green: '0 0 10rem #29c26f',
+        green: '0 0 10rem var(--primary-400)',
       },
     },
     colors: {
       primary: {
-        400: '#29c26f',
-        500: '#1B4329',
-        600: '#34D67D',
+        400: 'var(--primary-400)',
+        500: 'var(--primary-500)',
+        600: 'var(--primary-600)',
       },
-      secondary: '#34D67D',
+      secondary: 'var(--primary-400)',
       grayscale: {
         50: '#ffffff',
         100: '#efefef',

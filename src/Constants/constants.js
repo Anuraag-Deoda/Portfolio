@@ -1,4 +1,3 @@
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faX,
@@ -34,12 +33,17 @@ import {
   pawsitivePrototype,
   calculator,
   memoryGame,
+  financeManager,
   avatarr,
   flaskIcon,
   djangoIcon,
   dockerIcon,
   sqlIcon,
   aiIcon,
+  characterChat,
+  chessPredictor,
+  sudokuSolver,
+  urlShortener,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -80,13 +84,13 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
 
-    "I’m Anuraag, a Full Stack Developer with a passion for building seamless digital experiences. Based in Aurangabad, I specialize in React, Flask, Django, Docker, and AI-driven applications.",
+    "I'm Anuraag, a Full Stack Developer with a passion for building seamless digital experiences. Based in Aurangabad, I specialize in React, Flask, Django, Docker, and AI-driven applications.",
 
     "Though I took an unconventional path as a second-year dropout, my curiosity and drive led me to develop AI-powered chatbots, Ed-Tech solutions, and automation tools that solve real-world problems.",
 
     "Beyond coding, I enjoy writing, playing chess, and exploring new technologies. I thrive in collaborative teams and love working on projects that challenge me to grow.",
 
-    "Your visit to my portfolio means a lot—let’s build something amazing together! 🚀"
+    "Your visit to my portfolio means a lot—let's build something amazing together! 🚀"
   ],
 };
 
@@ -110,6 +114,36 @@ export const navLinks = [
 ];
 
 const projects = [
+  {
+    name: 'Family Finance Manager',
+    description: 'A comprehensive family finance tracking application built with React and Flask. Features include multi-account income & expense tracking, AI-powered transaction categorization, family member management, and detailed visualizations using Recharts.',
+    image: financeManager,
+    source_code_link: 'https://github.com/Anuraag-Deoda/family-finance-manager',
+  },
+  {
+    name: 'Character-Specific AI Chatbot',
+    description: 'An innovative chatbot application built with React and Vite that uses OpenAI to generate responses in the tone and style of selected characters. Features custom prompt training for each character personality.',
+    image: characterChat,
+    source_code_link: 'https://github.com/Anuraag-Deoda/character-chatbot',
+  },
+  {
+    name: 'Chess Move Predictor',
+    description: 'Advanced chess move prediction system using LangChain and neural networks. Analyzes game patterns and suggests optimal moves based on historical data and strategic analysis.',
+    image: chessPredictor,
+    source_code_link: 'https://github.com/Anuraag-Deoda/chess-predictor',
+  },
+  {
+    name: 'Sudoku Solver Visualizer',
+    description: 'Interactive sudoku solver implemented in both Python and JavaScript, featuring a visual representation of the backtracking algorithm in action. Demonstrates algorithm visualization and problem-solving techniques.',
+    image: sudokuSolver,
+    source_code_link: 'https://github.com/Anuraag-Deoda/sudoku-solver',
+  },
+  {
+    name: 'URL Shortener',
+    description: 'A Django-based URL shortening service with features like custom short URLs, click tracking, and expiration dates. Implements efficient database design and caching for high-performance URL redirection.',
+    image: urlShortener,
+    source_code_link: 'https://github.com/Anuraag-Deoda/url-shortener',
+  },
   {
     name: 'Chess Engine',
     description: 'An interactive and functional chess engine that uses Stockfish to determine the situation and suggest moves. It is built using Python.',
