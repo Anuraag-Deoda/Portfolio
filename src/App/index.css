@@ -19,7 +19,7 @@
 
 body {
   background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #4c2f59;
+  background-color: #203a2b;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -34,7 +34,7 @@ body {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #292D44;
+  background: #1B4329;
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -44,13 +44,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #1B4329);
+  filter: drop-shadow(0 0 5rem #1B4329);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #1B4329);
+  filter: drop-shadow(0 0 5rem #1B4329);
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -85,7 +85,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #292D44;
+  background: #1B4329;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
