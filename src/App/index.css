@@ -1,5 +1,3 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -118,7 +116,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #cbbde5;
+  color: #29c26f;
 }
 
 @keyframes rubberband {
@@ -149,8 +147,8 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #cbbde5);
-    filter: drop-shadow(0 0 1.5rem #cbbde5);
+    -webkit-filter: drop-shadow(0 0 1.5rem #29c26f);
+    filter: drop-shadow(0 0 1.5rem #29c26f);
   }
 }
 
@@ -173,7 +171,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #cbbde5 transparent;
+  border-color: #29c26f transparent;
 }
 
 @keyframes rotation {
